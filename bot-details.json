@@ -1,0 +1,552 @@
+{
+    "bot_type": "unattended",
+    "power_status": "off",
+    "status": "Successful",
+    "is_deleted": false,
+    "_id": "5edacd30c86acd03f429b3c8",
+    "name": "MessageBot_Test01",
+    "owner": {
+      "_id": "5d9f444b1725e800280d928b",
+      "name": "InitialUser",
+      "email": "initialuser@digitalamericas.ai",
+      "company": "DAPI",
+      "department": "IT",
+      "role": "Administrator"
+    },
+    "machine_id": "5edacc8c73262853438849e3",
+    "smart_cards": [],
+    "issues": [
+      {
+        "date": "2020-06-09T16:11:23.751Z",
+        "status": "smartcard",
+        "_id": "5edfb4b32cf84c341c099f50",
+        "content": "Test message",
+        "diagnostic": "This issue its not already defined in the engine: Test message",
+        "updatedAt": "2020-06-09T16:18:48.675Z",
+        "created_at": "2020-06-09T16:18:48.675Z"
+      },
+      {
+        "date": "2020-06-09T16:16:44.298Z",
+        "status": "smartcard",
+        "_id": "5edfb5ee2cf84c6b2209a37e",
+        "content": "Open Browser: Cannot communicate with the browser, please check the UiPath extension.",
+        "diagnostic": "This issue its not already defined in the engine: Open Browser: Cannot communicate with the browser, please check the UiPath extension.",
+        "updatedAt": "2020-06-09T16:18:48.675Z",
+        "created_at": "2020-06-09T16:18:48.675Z"
+      },
+      {
+        "date": "2020-06-09T16:18:46.960Z",
+        "status": "smartcard",
+        "_id": "5edfb66837f51e89179b4436",
+        "content": "Test message",
+        "diagnostic": "This issue its not already defined in the engine: Test message",
+        "updatedAt": "2020-06-09T16:18:48.675Z",
+        "created_at": "2020-06-09T16:18:48.675Z"
+      }
+    ],
+    "credentials": [],
+    "notifications": [],
+    "dependencies": [
+      {
+        "dependency_type": "software",
+        "action": "added",
+        "broken": false,
+        "version": [],
+        "_id": "5edfbab22cf84c4ae709b5f4",
+        "dependency_field": "UiPath.Core.Activities.LogMessage",
+        "dependency_detail": "Activity dependency",
+        "dependency_jobId": "37ddb485-a047-4878-ad0a-26a083d73061",
+        "updatedAt": "2020-06-09T16:37:06.983Z",
+        "created_at": "2020-06-09T16:37:06.983Z"
+      },
+      {
+        "dependency_type": "software",
+        "action": "added",
+        "broken": false,
+        "version": [],
+        "_id": "5edfbab22cf84c0e3b09b5fe",
+        "dependency_field": "UiPath.Core.Activities.OpenBrowser",
+        "dependency_detail": "Activity dependency",
+        "dependency_jobId": "37ddb485-a047-4878-ad0a-26a083d73061",
+        "updatedAt": "2020-06-09T16:37:06.992Z",
+        "created_at": "2020-06-09T16:37:06.992Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "removed",
+        "broken": true,
+        "_id": "5ef17e0721d20b29085cf93b",
+        "dependency_field": "Disk:    Mass Storage Device USB Device",
+        "dependency_detail": "Disk size: 1863 GB, Type: USB",
+        "updated": "2020-06-23T03:59:03.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "removed",
+        "broken": true,
+        "_id": "5eea5da7ffec8abadc2e6369",
+        "dependency_field": "Screen AMD Radeon(TM) Vega 8 Graphics",
+        "dependency_detail": "Resolution: 1024 x 768, Advanced Micro Devices, Inc. AMD Radeon Graphics Processor (0x15D8)",
+        "updated": "2020-06-17T18:15:03.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": true,
+        "_id": "5eea5da7ffec8a4ddc2e636a",
+        "dependency_field": "OS Hotfix: KB4552931",
+        "dependency_detail": "Description: Update, Installed: ",
+        "updated": "2020-06-17T18:15:03.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": true,
+        "_id": "5eea5da7ffec8a820f2e636b",
+        "dependency_field": "OS Hotfix: KB4515871",
+        "dependency_detail": "Description: Update, Installed: 10/8/2019",
+        "updated": "2020-06-17T18:15:03.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": true,
+        "_id": "5eea5da7ffec8a20a02e636c",
+        "dependency_field": "OS Hotfix: KB4517389",
+        "dependency_detail": "Description: Update, Installed: 10/9/2019",
+        "updated": "2020-06-17T18:15:03.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5eea5da7ffec8a0a332e636d",
+        "dependency_field": "OS Hotfix: KB4497165",
+        "dependency_detail": "Description: Update, Installed: 6/11/2020",
+        "updated": "2020-06-17T18:15:03.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5eea5da7ffec8ac4d42e636e",
+        "dependency_field": "OS Hotfix: KB4521863",
+        "dependency_detail": "Description: Security Update, Installed: 10/8/2019",
+        "updated": "2020-06-17T18:15:03.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5eea5da7ffec8ac37a2e636f",
+        "dependency_field": "OS Hotfix: KB4552931",
+        "dependency_detail": "Description: Update, Installed: 6/11/2020",
+        "updated": "2020-06-17T18:15:03.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5eea5da7ffec8a87f52e6370",
+        "dependency_field": "OS Hotfix: KB4516115",
+        "dependency_detail": "Description: Security Update, Installed: 10/8/2019",
+        "updated": "2020-06-17T18:15:03.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5eea5da7ffec8ae6e52e6371",
+        "dependency_field": "OS Hotfix: KB4560959",
+        "dependency_detail": "Description: Security Update, Installed: 6/11/2020",
+        "updated": "2020-06-17T18:15:03.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5eea5da7ffec8a4f8e2e6372",
+        "dependency_field": "OS Hotfix: KB4561600",
+        "dependency_detail": "Description: Security Update, Installed: 6/10/2020",
+        "updated": "2020-06-17T18:15:03.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5eea5da7ffec8a54612e6373",
+        "dependency_field": "OS Hotfix: KB4560960",
+        "dependency_detail": "Description: Update, Installed: 6/11/2020",
+        "updated": "2020-06-17T18:15:03.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "removed",
+        "broken": true,
+        "_id": "5eea5da7ffec8ae7342e6374",
+        "dependency_field": "Disk: VendorCo ProductCode USB Device",
+        "dependency_detail": "Disk size: 15 GB, Type: USB",
+        "updated": "2020-06-17T18:15:03.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "removed",
+        "broken": true,
+        "_id": "5eea5da7ffec8ad98a2e6375",
+        "dependency_field": "Disk: Seagate Expansion Desk USB Device",
+        "dependency_detail": "Disk size: 932 GB, Type: USB",
+        "updated": "2020-06-17T18:15:03.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "removed",
+        "broken": true,
+        "_id": "5eea5da7ffec8a2f872e6377",
+        "dependency_field": "Disk: Seagate Expansion Desk USB Device",
+        "dependency_detail": "Disk size: 1863 GB, Type: USB",
+        "updated": "2020-06-17T18:15:03.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5eea5da7ffec8a23492e6378",
+        "dependency_field": "Network: Microsoft vEthernet (Default Switch)",
+        "dependency_detail": "Driver: Hyper-V Virtual Ethernet Adapter",
+        "updated": "2020-06-17T18:15:03.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5eea5da7ffec8abb572e6379",
+        "dependency_field": "Network: TAP-Surfshark Windows Provider V9 Ethernet 2",
+        "dependency_detail": "Driver: TAP-Surfshark Windows Adapter V9",
+        "updated": "2020-06-17T18:15:03.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5eea5da7ffec8a57292e637a",
+        "dependency_field": "Disk: Seagate Expansion Desk SCSI Disk Device",
+        "dependency_detail": "Disk size: 2795 GB, Type: SCSI",
+        "updated": "2020-06-17T18:15:03.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "removed",
+        "broken": true,
+        "_id": "5eea5da7ffec8a94a62e637b",
+        "dependency_field": "Disk: Seagate Expansion Desk SCSI Disk Device",
+        "dependency_detail": "Disk size: 1863 GB, Type: SCSI",
+        "updated": "2020-06-17T18:15:03.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "software",
+        "action": "removed",
+        "broken": true,
+        "_id": "5edfdcd037f51e286c9b6f65",
+        "dependency_field": "Uipath Platform Service",
+        "dependency_detail": "Executable at: C:\\\\Users\\\\Fernando\\\\AppData\\\\Local\\\\UiPath\\\\app-20.4.1\\\\UiPath.Agent.exe",
+        "updated": "2020-06-09T19:02:40.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "removed",
+        "broken": true,
+        "_id": "5edfba0237f51ec8ed9b4fe0",
+        "dependency_field": "Network: Microsoft Bluetooth Network Connection",
+        "dependency_detail": "Driver: Bluetooth Device (Personal Area Network)",
+        "updated": "2020-06-09T16:34:10.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5edfb2dc37f51e5a2d9b3769",
+        "dependency_field": "Network: Qualcomm Atheros Communications Inc. Wi-Fi",
+        "dependency_detail": "Driver: Qualcomm Atheros QCA9377 Wireless Network Adapter",
+        "updated": "2020-06-09T16:03:40.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5edfb2dc37f51e7ee69b376a",
+        "dependency_field": "Network: Realtek Ethernet",
+        "dependency_detail": "Driver: Realtek PCIe GbE Family Controller",
+        "updated": "2020-06-09T16:03:40.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5edfb2dc37f51e15dc9b376c",
+        "dependency_field": "Disk: WDC WD10SPZX-21Z10T0",
+        "dependency_detail": "Disk size: 932 GB, Type: IDE",
+        "updated": "2020-06-09T16:03:40.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5edfb2dc37f51e2e8d9b376d",
+        "dependency_field": "Disk: WD Elements 2621 USB Device",
+        "dependency_detail": "Disk size: 1863 GB, Type: USB",
+        "updated": "2020-06-09T16:03:40.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5edfb2dc37f51e99999b376e",
+        "dependency_field": " .NET Framework",
+        "dependency_detail": " version: 2.0.50727.4927",
+        "updated": "2020-06-09T16:03:40.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5edfb2dc37f51e4ffa9b376f",
+        "dependency_field": " .NET Framework",
+        "dependency_detail": " version: 3.0.30729.4926",
+        "updated": "2020-06-09T16:03:40.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5edfb2dc37f51ed1439b3770",
+        "dependency_field": " .NET Framework",
+        "dependency_detail": " version: 3.5.30729.4926",
+        "updated": "2020-06-09T16:03:40.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5edfb2dc37f51eefa39b3771",
+        "dependency_field": " .NET Framework",
+        "dependency_detail": " version: 4.8.03752",
+        "updated": "2020-06-09T16:03:40.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5edfb2dc37f51e181d9b3772",
+        "dependency_field": "OS: Windows 10 Pro",
+        "dependency_detail": "Version: 10.0.18362",
+        "updated": "2020-06-09T16:03:40.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5edfb2dc37f51e2e649b3773",
+        "dependency_field": "Hardware: Acer Aspire A315-41G",
+        "dependency_detail": "CPU: AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx  , RAM: 6 GB",
+        "updated": "2020-06-09T16:03:40.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "device",
+        "action": "added",
+        "broken": false,
+        "_id": "5edfb2dc37f51e506b9b3774",
+        "dependency_field": "Screen AMD Radeon(TM) Vega 8 Graphics",
+        "dependency_detail": "Resolution: 1366 x 768, Advanced Micro Devices, Inc. AMD Radeon Graphics Processor (0x15D8)",
+        "updated": "2020-06-09T16:03:40.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      },
+      {
+        "dependency_type": "software",
+        "action": "removed",
+        "broken": true,
+        "_id": "5edfb2dc37f51e35399b3776",
+        "dependency_field": "Uipath Platform Service",
+        "dependency_detail": "Executable at: C:\\\\Users\\\\Fernando\\\\AppData\\\\Local\\\\UiPath\\\\app-19.10.0\\\\UiPath.Agent.exe",
+        "updated": "2020-06-09T16:03:40.000Z",
+        "updated_at": "2020-06-23T04:09:43.354Z",
+        "created_at": "2020-06-23T04:09:43.354Z"
+      }
+    ],
+    "created_at": "2020-06-05T22:54:40.213Z",
+    "updatedAt": "2020-06-05T22:55:07.700Z",
+    "__v": 0,
+    "executions": [
+      {
+        "job_id": "10a85900-466d-4a8d-a9e3-6f0e18bd47fd",
+        "message": "MessageBot_Test01 execution ended",
+        "status": "Successful",
+        "timestamp": "2020-06-05T17:18:24.3693077-05:00",
+        "execution_time": "3"
+      },
+      {
+        "job_id": "1b974c22-fc6c-48b3-b1c8-b2439da68e38",
+        "message": "MessageBot_Test01 execution ended",
+        "status": "Successful",
+        "timestamp": "2020-06-05T16:13:28.4069412-05:00",
+        "execution_time": "3"
+      },
+      {
+        "job_id": "286ce9c6-abac-46b6-8dc0-217f788c7e5d",
+        "message": "MessageBot_Test01 execution ended",
+        "status": "Successful",
+        "timestamp": "2020-06-05T17:54:36.1350015-05:00",
+        "execution_time": "3"
+      },
+      {
+        "job_id": "3419a8a0-db8d-493d-940a-22ea52799753",
+        "message": "MessageBot_Test01 execution ended",
+        "status": "Successful",
+        "timestamp": "2020-06-05T15:38:51.8827396-05:00",
+        "execution_time": "3"
+      },
+      {
+        "job_id": "76454fe3-2621-4581-899b-653599894d8d",
+        "message": "MessageBot_Test01 execution ended",
+        "status": "Successful",
+        "timestamp": "2020-06-05T16:45:10.4464142-05:00",
+        "execution_time": "3"
+      },
+      {
+        "job_id": "b58dac8b-f2b3-4719-8168-52bb5cf686b6",
+        "message": "MessageBot_Test01 execution ended",
+        "status": "Successful",
+        "timestamp": "2020-06-05T15:46:56.5177456-05:00",
+        "execution_time": "3"
+      }
+    ],
+    "events": [
+      {
+        "status": "Successful",
+        "_id": "5edfb3812cf84c09d3099ae8",
+        "name": "TESTBot_08064",
+        "machine_id": "5edfa31d37f51e066a9b2d3d",
+        "tittle": "Update",
+        "message": "TESTBot_08064: Bot dependency was successfully updated",
+        "created_at": "2020-06-09T16:06:25.096Z",
+        "updated_at": "2020-06-09T16:06:25.096Z",
+        "__v": 0
+      },
+      {
+        "status": "Maintenance",
+        "_id": "5edfb4bf37f51e6ba49b3f6d",
+        "name": "TESTBot_08064",
+        "machine_id": "5edfa31d37f51e066a9b2d3d",
+        "tittle": "AutomationIssue",
+        "message": "TESTBot_08064: Remediation result",
+        "created_at": "2020-06-09T16:11:43.877Z",
+        "updated_at": "2020-06-09T16:11:43.877Z",
+        "__v": 0
+      },
+      {
+        "status": "Successful",
+        "_id": "5edfb66937f51e77919b44cb",
+        "name": "TESTBot_08064",
+        "machine_id": "5edfa31d37f51e066a9b2d3d",
+        "tittle": "Update",
+        "message": "TESTBot_08064: Bot dependency was successfully updated",
+        "created_at": "2020-06-09T16:18:49.442Z",
+        "updated_at": "2020-06-09T16:18:49.442Z",
+        "__v": 0
+      },
+      {
+        "status": "Maintenance",
+        "_id": "5ee213bf37f51e79e59ca47e",
+        "name": "TESTBot_08064",
+        "machine_id": "5edfa31d37f51e066a9b2d3d",
+        "tittle": "AutomationIssue",
+        "message": "TESTBot_08064: Remediation result",
+        "created_at": "2020-06-11T11:21:35.153Z",
+        "updated_at": "2020-06-11T11:21:35.153Z",
+        "__v": 0
+      }
+    ],
+    "machine": {
+      "so": "Windows10",
+      "state": "sudmitted",
+      "type": "Physical Machine",
+      "status": "deactivated",
+      "_id": "5ec583528c0a7e0011f41c1a",
+      "alias": "FG_TEST2_2005",
+      "owner": {
+        "role": "Administrator",
+        "_id": "5ec583528c0a7e0011f41c1b",
+        "department": "IT",
+        "company": "DAPI",
+        "user_id": "5ea1eaca25aca8001120fe78",
+        "createdAt": "2020-05-20T19:21:54.990Z",
+        "updated_at": "2020-06-05T21:38:21.416Z"
+      },
+      "created_at": "2020-05-20T19:21:54.990Z",
+      "updatedAt": "2020-07-06T21:07:52.709Z",
+      "__v": 4,
+      "snow_id": "5efe2c85c7b15a2774298a71"
+    }
+  }

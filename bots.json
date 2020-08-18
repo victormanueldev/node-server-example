@@ -1,0 +1,376 @@
+[
+  {
+    "bot_type": "unattended",
+    "power_status": "off",
+    "status": "Successful",
+    "is_deleted": false,
+    "_id": "5ed96364c86acd1699284504",
+    "name": "CacheRemediationProcess",
+    "owner": {
+      "department": "IT",
+      "company": "DAPI",
+      "user_id": "5ed95d0d7326285c7886d4a3",
+      "name" : "InitialUser"
+    }, 
+    "machine_id": "5ed95e81c86acd0d7c28401d",
+    "credentials": [],
+    "created_at": "2020-06-04T21:11:00.143Z",
+    "updatedAt": "2020-06-04T21:11:00.143Z",
+    "machine": {
+        "alias": "FG_TEST2_2005"
+      },
+    "__v": 0
+  },
+  {
+    "bot_type": "unattended",
+    "power_status": "off",
+    "status": "Successful",
+    "is_deleted": false,
+    "_id": "5ed97c55c86acd3efe286223",
+    "name": "TestEnv_30042020",
+    "owner": {
+        "department": "IT",
+        "company": "DAPI",
+        "user_id": "5ed95d0d7326285c7886d4a3",
+        "name" : "InitialUser"
+      }, 
+    "machine_id": "5ed806d073262819cb85f276",
+    "credentials": [],
+    "created_at": "2020-06-04T22:57:25.212Z",
+    "updatedAt": "2020-06-04T22:57:48.120Z",
+    "machine": {
+        "alias": "FG_TEST2_2005"
+      },
+    "__v": 0
+  },
+  {
+    "bot_type": "unattended",
+    "power_status": "off",
+    "status": "Successful",
+    "is_deleted": false,
+    "_id": "5eda64d5c86acdd5f02936e0",
+    "name": "Manuel_Test_20200604",
+    "owner": {
+        "department": "IT",
+        "company": "DAPI",
+        "user_id": "5ed95d0d7326285c7886d4a3",
+        "name" : "InitialUser"
+      }, 
+    "machine_id": "5eda61e0c86acd35fe29324e",
+    "credentials": [],
+    "created_at": "2020-06-05T15:29:25.112Z",
+    "updatedAt": "2020-07-06T21:14:03.900Z",
+    "machine": {
+        "alias": "FG_TEST2_2005"
+      },
+    "__v": 0
+  },
+  {
+    "bot_type": "unattended",
+    "power_status": "off",
+    "status": "Successful",
+    "is_deleted": false,
+    "_id": "5eda6a98732628af0987d542",
+    "name": "Manuel_Test",
+    "owner": {
+        "department": "IT",
+        "company": "DAPI",
+        "user_id": "5ed95d0d7326285c7886d4a3",
+        "name" : "InitialUser"
+      }, 
+    "machine_id": "5eda61e0c86acd35fe29324e",
+    "credentials": [],
+    "created_at": "2020-06-05T15:54:00.143Z",
+    "updatedAt": "2020-06-09T16:16:52.218Z",
+    "machine": {
+        "alias": "FG_TEST2_2005"
+      },
+    "__v": 0
+  },
+  {
+    "bot_type": "unattended",
+    "power_status": "off",
+    "status": "Successful",
+    "is_deleted": false,
+    "_id": "5edacd30c86acd03f429b3c8",
+    "name": "MessageBot_Test01",
+    "owner": {
+        "department": "IT",
+        "company": "DAPI",
+        "user_id": "5ed95d0d7326285c7886d4a3",
+        "name" : "InitialUser"
+      }, 
+    "machine_id": "5edacc8c73262853438849e3",
+    "credentials": [],
+    "created_at": "2020-06-05T22:54:40.213Z",
+    "updatedAt": "2020-06-05T22:55:07.700Z",
+    "machine": {
+        "alias": "FG_TEST2_2005"
+      },
+    "__v": 0
+  },
+  {
+    "bot_type": "unattended",
+    "power_status": "off",
+    "status": "Maintenance",
+    "is_deleted": false,
+    "_id": "5edfb2dc2cf84c68a009980a",
+    "name": "TESTBot_08064",
+    "owner": {
+        "department": "IT",
+        "company": "DAPI",
+        "user_id": "5ed95d0d7326285c7886d4a3",
+        "name" : "InitialUser"
+      }, 
+    "machine_id": "5edfa31d37f51e066a9b2d3d",
+    "credentials": [],
+    "created_at": "2020-06-09T16:03:40.354Z",
+    "updatedAt": "2020-06-09T19:04:18.470Z",
+    "machine": {
+        "alias": "FG_TEST2_2005"
+      },
+    "__v": 0
+  },
+  {
+    "bot_type": "unattended",
+    "power_status": "off",
+    "status": "Maintenance",
+    "is_deleted": false,
+    "_id": "5edfbc8c2cf84c7d5109b8d5",
+    "name": "TESTBot_12064",
+    "owner": {
+        "department": "IT",
+        "company": "DAPI",
+        "user_id": "5ed95d0d7326285c7886d4a3",
+        "name" : "InitialUser"
+      }, 
+    "machine_id": "5edfa31d37f51e066a9b2d3d",
+    "credentials": [],
+    "created_at": "2020-06-09T16:45:00.361Z",
+    "updatedAt": "2020-06-09T19:04:18.470Z",
+    "machine": {
+        "alias": "FG_TEST2_2005"
+      },
+    "__v": 0
+  },
+  {
+    "bot_type": "unattended",
+    "power_status": "off",
+    "status": "Maintenance",
+    "is_deleted": false,
+    "_id": "5edfd2bc37f51e7b1b9b64a4",
+    "name": "ScreenResolutionRemediationProcess",
+    "owner": {
+        "department": "IT",
+        "company": "DAPI",
+        "user_id": "5ed95d0d7326285c7886d4a3",
+        "name" : "InitialUser"
+      }, 
+    "machine_id": "5edfa31d37f51e066a9b2d3d",
+    "credentials": [],
+    "created_at": "2020-06-09T18:19:40.351Z",
+    "updatedAt": "2020-06-09T19:04:18.470Z",
+    "machine": {
+        "alias": "FG_TEST2_2005"
+      },
+    "__v": 0
+  },
+  {
+    "bot_type": "unattended",
+    "power_status": "off",
+    "status": "Failure",
+    "is_deleted": false,
+    "_id": "5edfdcd037f51e3dbd9b6f42",
+    "name": "TESTBot_09064A",
+    "owner": {
+        "department": "IT",
+        "company": "DAPI",
+        "user_id": "5ed95d0d7326285c7886d4a3",
+        "name" : "InitialUser"
+      }, 
+    "machine_id": "5edfa31d37f51e066a9b2d3d",
+    "credentials": [],
+    "created_at": "2020-06-09T19:02:40.270Z",
+    "updatedAt": "2020-06-09T19:04:48.208Z",
+    "machine": {
+        "alias": "FG_TEST2_2005"
+      },
+    "__v": 0
+  },
+  {
+    "bot_type": "unattended",
+    "power_status": "off",
+    "status": "Failure",
+    "is_deleted": false,
+    "_id": "5ee8ee8affec8a8f282bb548",
+    "name": "MessageBot_Test01",
+    "owner": {
+        "department": "IT",
+        "company": "DAPI",
+        "user_id": "5ed95d0d7326285c7886d4a3",
+        "name" : "InitialUser"
+      }, 
+    "machine_id": "5ee24636324074087623d3a9",
+    "credentials": [],
+    "created_at": "2020-06-16T16:08:42.003Z",
+    "updatedAt": "2020-07-08T16:54:16.681Z",
+    "machine": {
+        "alias": "FG_TEST2_2005"
+      },
+    "__v": 0
+  },
+  {
+    "bot_type": "unattended",
+    "power_status": "off",
+    "status": "Successful",
+    "is_deleted": false,
+    "_id": "5ee8f286324074e38027df77",
+    "name": "BotProcessTest_01",
+    "owner": {
+        "department": "IT",
+        "company": "DAPI",
+        "user_id": "5ed95d0d7326285c7886d4a3",
+        "name" : "InitialUser"
+      }, 
+    "machine_id": "5ee24636324074087623d3a9",
+    "credentials": [],
+    "created_at": "2020-06-16T16:25:42.312Z",
+    "updatedAt": "2020-07-09T16:16:08.038Z",
+    "machine": {
+        "alias": "FG_TEST2_2005"
+      },
+    "__v": 0
+  },
+  {
+    "bot_type": "unattended",
+    "power_status": "off",
+    "status": "Successful",
+    "is_deleted": false,
+    "_id": "5eea5da732407457602a7309",
+    "name": "SimulationBot-HumanAccessToOneDrive",
+    "owner": {
+        "department": "IT",
+        "company": "DAPI",
+        "user_id": "5ed95d0d7326285c7886d4a3",
+        "name" : "InitialUser"
+      }, 
+    "machine_id": "5edfa31d37f51e066a9b2d3d",
+    "credentials": [],
+    "created_at": "2020-06-17T18:15:03.215Z",
+    "updatedAt": "2020-06-17T18:24:49.947Z",
+    "machine": {
+        "alias": "FG_TEST2_2005"
+      },
+    "__v": 0
+  },
+  {
+    "bot_type": "unattended",
+    "power_status": "off",
+    "status": "Successful",
+    "is_deleted": false,
+    "_id": "5ef17e0721d20b30f15cf935",
+    "name": "Welcome Bot Robotinuum Experience",
+    "owner": {
+        "department": "IT",
+        "company": "DAPI",
+        "user_id": "5ed95d0d7326285c7886d4a3",
+        "name" : "InitialUser"
+      }, 
+    "machine_id": "5edfa31d37f51e066a9b2d3d",
+    "credentials": [],
+    "created_at": "2020-06-23T03:59:03.198Z",
+    "updatedAt": "2020-06-23T03:59:03.198Z",
+    "machine": {
+        "alias": "FG_TEST2_2005"
+      },
+    "__v": 0
+  },
+  {
+    "bot_type": "unattended",
+    "power_status": "off",
+    "status": "Successful",
+    "is_deleted": false,
+    "_id": "5ef5fb8e4060ece708977156",
+    "name": "BotExample_Test",
+    "owner": {
+        "department": "IT",
+        "company": "DAPI",
+        "user_id": "5ed95d0d7326285c7886d4a3",
+        "name" : "InitialUser"
+      }, 
+    "machine_id": "5ee24636324074087623d3a9",
+    "credentials": [],
+    "created_at": "2020-06-26T13:43:42.575Z",
+    "updatedAt": "2020-06-26T13:44:05.074Z",
+    "machine": {
+        "alias": "FG_TEST2_2005"
+      },
+    "__v": 0
+  },
+  {
+    "bot_type": "unattended",
+    "power_status": "off",
+    "status": "Failure",
+    "is_deleted": false,
+    "_id": "5efcf9f084e0f5c9c2106f2a",
+    "name": "Monthly_Consolidated_Report",
+    "owner": {
+        "department": "IT",
+        "company": "DAPI",
+        "user_id": "5ed95d0d7326285c7886d4a3",
+        "name" : "InitialUser"
+      }, 
+    "machine_id": "5efcf78e84e0f5252f106c4e",
+    "credentials": [],
+    "created_at": "2020-07-01T21:02:40.610Z",
+    "updatedAt": "2020-07-02T04:34:28.448Z",
+    "machine": {
+        "alias": "FG_TEST2_2005"
+      },
+    "__v": 0
+  },
+  {
+    "bot_type": "unattended",
+    "power_status": "off",
+    "status": "Failure",
+    "is_deleted": false,
+    "_id": "5efddc96c3d1cf731d76cdba",
+    "name": "Test_Monthly_Consolidated_Report",
+    "owner": {
+        "department": "IT",
+        "company": "DAPI",
+        "user_id": "5ed95d0d7326285c7886d4a3",
+        "name" : "InitialUser"
+      }, 
+    "machine_id": "5efdd96084e0f5bdc71140b2",
+    "credentials": [],
+    "created_at": "2020-07-02T13:09:42.636Z",
+    "updatedAt": "2020-07-02T13:48:29.610Z",
+    "machine": {
+        "alias": "FG_TEST2_2005"
+      },
+    "__v": 0
+  },
+  {
+    "bot_type": "unattended",
+    "power_status": "off",
+    "status": "Failure",
+    "is_deleted": false,
+    "_id": "5efde9f3c3d1cf24d876f884",
+    "name": "ScreenTest07012020",
+    "owner": {
+        "department": "IT",
+        "company": "DAPI",
+        "user_id": "5ed95d0d7326285c7886d4a3",
+        "name" : "InitialUser"
+      }, 
+    "machine_id": "5efdd96084e0f5bdc71140b2",
+    "credentials": [],
+    "created_at": "2020-07-02T14:06:43.233Z",
+    "updatedAt": "2020-07-21T15:59:46.963Z",
+    "machine": {
+        "alias": "FG_TEST2_2005"
+      },
+    "__v": 0
+  }
+]
